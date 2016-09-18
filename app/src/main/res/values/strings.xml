@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="movies">POPULAR MOVIES</string>
+    <string name="hawk">STOCK HAWK</string>
+    <string name="build">BUILD IT BIGGER</string>
+    <string name="material">MAKE YOUR APP MATERIAL</string>
+    <string name="ubiquitous">GO UBIQUITOUS</string>
+    <string name="capstone">CAPSTONE</string>
+    <string name="moviesToast">This button will launch my popular movies app!</string>
+    <string name="hawkToast">This button will launch my stock hawk app!</string>
+    <string name="buildToast">This button will launch my build it bigger app!</string>
+    <string name="materialToast">This button will launch my make your app material app!</string>
+    <string name="ubiquitousToast">This button will launch my go ubiquitous app!</string>
+    <string name="capstoneToast">This button will launch my capstone app!</string>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:gravity="center"
+    android:background="@color/accent_material_dark"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/title_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/movies"
+        android:id="@+id/movies_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hawk"
+        android:id="@+id/hawk_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/build"
+        android:id="@+id/build_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/material"
+        android:id="@+id/material_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ubiquitous"
+        android:id="@+id/ubiquitous_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/capstone_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/accent_material_light"
+        android:layout_margin="8dp" />
+
+</LinearLayout>
